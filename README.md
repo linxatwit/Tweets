@@ -1,5 +1,5 @@
 # Tweets
-Python Flask web application that uses Twitter API to collect tweets, save them to the database, and to the JSON file.
+Python Flask web application that uses Twitter API to collect tweets, save them to the database, and to a JSON file.
 
 ## Installation
 If Flask isn't installed, install Flask and Flask-CORS.

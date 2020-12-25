@@ -16,6 +16,9 @@ To view the database, download the ```sqlite-tools``` zip file from their downlo
 
 Upzip the file and open the ```DB Browser for SQLite``` application. To view the database, open the Data Base File by selecting the ```database.md``` file in the project.
 
+## Twitter Credentials
+In the ``twitter_credentials.py``` file, replace the empty strings with your Twitter access token and consumer key.
+
 ## Run
 ```python -m flask run```
 

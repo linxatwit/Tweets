@@ -20,4 +20,4 @@ Upzip the file and open the ```DB Browser for SQLite``` application. To view the
 ```python -m flask run```
 
 ## Terminate
-Ctrl + C to termate flask application.
+Ctrl + C to terminate flask application.

@@ -1,0 +1,47 @@
+<html>
+    <!-- Style taken from https://www.w3schools.com/css/css_table.asp -->
+    <style>
+        #tweets {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        }
+
+        #tweets td, #tweets th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        }
+
+        #tweets tr:nth-child(even){background-color: #f2f2f2;}
+
+        #tweets th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #1DA1F2;
+        color: white;
+        }
+    </style>
+    <body>
+        <form action='/' method='post'>
+            <input type="text" placeholder="Enter keywords" name='post'>
+            <button type="submit" value="submit">Submit</button>
+        </form>
+        <table id="tweets">
+            <thead>
+                <tr>
+                    <th>Tweet ID</th>
+                    <th>Tweet</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for post in posts %}
+                    <tr>
+                        <td>{{post[1]}}</td>
+                        <td>{{post[2]}}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>

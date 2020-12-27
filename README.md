@@ -22,5 +22,7 @@ In the ```twitter_credentials.py``` file, replace the empty strings with your Tw
 ## Run
 ```python -m flask run```
 
+To view the website, go to ```localhost:5000```.
+
 ## Terminate
 Ctrl + C to terminate flask application.
